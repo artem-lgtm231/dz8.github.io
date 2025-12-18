@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакты — Компания АП</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="logo" aria-hidden="true">АП</div>
+  <div class="header-info">
+    <h1>Компания «АП»</h1>
+    <p class="tagline">Производство и реализация нужных вещей</p>
+  </div>
+</header>
+
+<nav class="main-nav" role="navigation" aria-label="Главное меню">
+<a href="index.html">Главная</a>
+  <a href="index.html">О компании</a>
+  <a href="news.html">Новости</a>
+  <a href="products.html">О продукции</a>
+  <a href="work.html">Как мы работаем</a>
+<a href="partners.html">Партнеры</a>
+  <a href="contacts.html">Контакты</a>
+</nav>
+
+<main class="container" role="main">
+  <section aria-labelledby="contacts-title" class="contacts">
+    <h2 id="contacts-title">Контакты</h2>
+    <address>
+      <p>Адрес: г. Киев, ул. Банковая, 11</p>
+      <p>Телефон: +38 (044) 123-45-67</p>
+      <p>Email: <a href="mailto:info@ap-example.com">info@ap-example.com</a></p>
+    </address>
+
+    <form class="contact-form" action="#" method="post" novalidate aria-label="Форма обратной связи">
+      <div class="form-row">
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" required placeholder="Ваше имя">
+      </div>
+      <div class="form-row">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required placeholder="email@example.com">
+      </div>
+      <div class="form-row">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="5" maxlength="1000" placeholder="Ваш вопрос"></textarea>
+      </div>
+      <div class="form-row">
+        <button class="btn" type="submit">Отправить</button>
+      </div>
+    </form>
+  </section>
+
+  <aside class="sidebar" role="complementary">
+    <h3>Часы работы</h3>
+    <p>Пн–Пт: 9:00–18:00</p>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Компания «АП»</p>
+</footer>
+</body>
+</html>
